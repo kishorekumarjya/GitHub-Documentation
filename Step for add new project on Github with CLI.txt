@@ -7,8 +7,16 @@ Click on Git Bash Here option
 git init
 git add .
 git commit -m "Initial commit"
+
+Note:
+If issue with remote and run this command
+git remote rm origin
+
+else
 git remote add origin https://github.com/kishorekumarjya/hori.git
 git push -u -f origin master
 git pull https://github.com/kishorekumarjya/hori.git master
 git push --set-upstream origin master
 
+git config --global user.email "kishorekumar.jya@gmail.com"
+git config --global user.name "kishorekumarjya"
